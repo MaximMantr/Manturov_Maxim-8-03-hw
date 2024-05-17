@@ -1,5 +1,5 @@
-# Домашнее задание к занятию 
-"`Домашнее задание к занятию «Git»`" - `Мантуров Максим Андреевич`
+# Домашнее задание к занятию «Git» 
+## `Мантуров Максим Андреевич`
 
 
 
@@ -25,8 +25,9 @@
 ```
 
 ![alt text](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_1/1-6.png)
-
-
+---
+### Решение 
+[Ссылка на 'First commit' ](https://github.com/MaximMantr/Netology_Manturov_student/commit/68b3c10cc986e98b499e82c444303fd0a9f93e02)
 ---
 
 ### Задание 2
