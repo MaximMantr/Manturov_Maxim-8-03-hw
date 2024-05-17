@@ -1,4 +1,4 @@
-# Домашнее задание к занятию «Git» 
+## Домашнее задание к занятию «Git» 
 ## `Мантуров Максим Андреевич`
 
 
@@ -20,54 +20,50 @@
 ![13](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_1/13.png)
 ![13-git](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_1/13-git.png)
 ---
-### Решение 
+### Решение задания № 1
 [Ссылка на 'First commit' ](https://github.com/MaximMantr/Netology_Manturov_student/commit/68b3c10cc986e98b499e82c444303fd0a9f93e02)
 ---
 
-### Задание 2
+### Задание 2 (Создайте файл .gitignore а так же написать правила в нем для игнорирования любые файлы .pyc, а также все файлы в директории cache. )
 
-`Приведите ответ в свободной форме........`
+`Этапы выполнение задания представленны в виде скриншотав`
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
-
-```
-Поле для вставки кода...
-....
-....
-....
-....
-```
-
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 2](ссылка на скриншот 2)`
-
+1.`Создаю файл  .gitignore  и проверяю статус после его создания.`
+![1](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_2/1.png)
+2.`Добавляю файл .gitignore в следующий коммит`
+![2](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_2/2.png)
+3.`Делаю коммит и пуш`
+![3](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_2/3.png)
+![1-1](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_2/3-1.png)
+![1-2](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_2/3-2.png)
+---
+### Решение задания № 2
+[Ссылка на комет 'Add .gitignore file to ignore .pyc files and cache directory' ](https://github.com/MaximMantr/Netology_Manturov_student/commit/b7bf1275cc35340b929f3233df6a1e3cbadd4d27)
 
 ---
 
-### Задание 3
+### Задание 3 (Создание ветки dev, эмитация работы с последующим слиением в оновную ветку.)
 
-`Приведите ответ в свободной форме........`
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
+`Этапы выполнение задания представленны в виде скриншотав`
 
-```
-Поле для вставки кода...
-....
-....
-....
-....
-```
+![1-2](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_3/1-2.png)
+![1-2-1](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_3/1-2-1.png)
+![5](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_3/5.png)
+![3](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_3/3.png)
+![4](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_3/4.png)
+![5-1](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_3/5-1.png)
+![6-8](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_3/6-8.png)
+---
+### График комитов 
+![6](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_3/Finish.png)
+---
+---
+### Решение задания № 3
+[Ссылка на граф комитов' ](https://github.com/MaximMantr/Netology_Manturov_student/network)
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота](ссылка на скриншот)`
+---
+
+
+
 
