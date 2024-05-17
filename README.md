@@ -24,8 +24,7 @@
 ....
 ```
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 1](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_1/1-6.png)`
+![alt text](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_1/1-6.png)
 
 
 ---
