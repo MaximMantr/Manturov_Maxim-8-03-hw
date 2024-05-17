@@ -5,26 +5,20 @@
 
 ---
 
-### Задание 1
+### Задание 1 (Регистрация на GitHab и настройка README.md файла)
 
-`'Этапы выполнение `
+`Этапы выполнение задания представленны в виде скриншотав`
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
-
-```
-Поле для вставки кода...
-....
-....
-....
-....
-```
-
-![alt text](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_1/1-6.png)
+1. `На скриншоте показано выполнение комманды git clone переход в деррикторию и настройка user.name и user.email а так же вывод всех настроек коммандой git config --list --show-origin`
+![1-6](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_1/1-6.png)
+2. `Выполнене задания с 6 по 8. Работа с файломи и вывод git status для того что бы видеть что произошли изменения`
+![6-8](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_1/6-8.png)
+3. `git diff и  git diff --staged для просмотра изменений в файле README.md. Переведите файл в состояние staged или, как говорят, добавьте файл в коммит, командой git add README.md `
+![8-10](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_1/9-10.png)
+4. `Добавление коммит git commit -m 'First commit' и далее git push origin master `
+![12](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_1/12.png)
+![13](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_1/13.png)
+![13-git](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_1/13-git.png)
 ---
 ### Решение 
 [Ссылка на 'First commit' ](https://github.com/MaximMantr/Netology_Manturov_student/commit/68b3c10cc986e98b499e82c444303fd0a9f93e02)
