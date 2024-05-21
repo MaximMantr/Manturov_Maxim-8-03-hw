@@ -1,68 +1,97 @@
-## Домашнее задание к занятию «Git» 
+## Домашнее задание к занятию «GitLab» 
 ## `Мантуров Максим Андреевич`
 
 
 
 ---
 
-### Задание 1 (Регистрация на GitHab и настройка README.md файла)
+### Задание 1 
+
+#### Задачи
+
+- Развернуть GitLab локально, используя Vagrantfile.
+- Создайть новый проект и пустой репозиторий в нём.
+- Зарегистрировать gitlab-runner для этого проекта и запустить его в режиме Docker.
 
 `Этапы выполнение задания представленны в виде скриншотав`
-
-1. `На скриншоте показано выполнение комманды git clone переход в деррикторию и настройка user.name и user.email а так же вывод всех настроек коммандой git config --list --show-origin`
-![1-6](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_1/1-6.png)
-2. `Выполнене задания с 6 по 8. Работа с файломи и вывод git status для того что бы видеть что произошли изменения`
-![6-8](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_1/6-8.png)
-3. `git diff и  git diff --staged для просмотра изменений в файле README.md. Переведите файл в состояние staged или, как говорят, добавьте файл в коммит, командой git add README.md `
-![8-10](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_1/9-10.png)
-4. `Добавление коммит git commit -m 'First commit' и далее git push origin master `
-![12](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_1/12.png)
-![13](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_1/13.png)
-![13-git](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_1/13-git.png)
 ---
-### Решение задания № 1
-[Ссылка на 'First commit' ](https://github.com/MaximMantr/Netology_Manturov_student/commit/68b3c10cc986e98b499e82c444303fd0a9f93e02)
+- Развернутый GitLab и созданный в нем проект пустой.
+![1-2](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/gitlab/img/GitLab/Instal/2.png)
+![1-3](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/gitlab/img/GitLab/Instal/3.png)
+![1-1](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/gitlab/img/GitLab/Instal/1.png)
+---
+- Регистрация gitlab-runner для этого проекта и запустить его в режиме Docker.
+![1](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/gitlab/img/GitLab/runner/1.png)
+![4](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/gitlab/img/GitLab/runner/4.png)
+![2](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/gitlab/img/GitLab/runner/2.png)
+
+`Конфигурация gitlab-runner `
+![5](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/gitlab/img/GitLab/runner/5.png)
 ---
 
-### Задание 2 (Создайте файл .gitignore а так же написать правила в нем для игнорирования любые файлы .pyc, а также все файлы в директории cache. )
+### Задание 2 
+
+#### Задачи
+
+- Запушить репозиторий на GitLab, изменив origin.
+- Создать .gitlab-ci.yml, описав в нём все необходимые, на мой взгляд, этапы. 
 
 `Этапы выполнение задания представленны в виде скриншотав`
-
-1.`Создаю файл  .gitignore  и проверяю статус после его создания.`
-![1](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_2/1.png)
-2.`Добавляю файл .gitignore в следующий коммит`
-![2](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_2/2.png)
-3.`Делаю коммит и пуш`
-![3](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_2/3.png)
-![1-1](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_2/3-1.png)
-![1-2](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_2/3-2.png)
 ---
-### Решение задания № 2
-[Ссылка на комет 'Add .gitignore file to ignore .pyc files and cache directory' ](https://github.com/MaximMantr/Netology_Manturov_student/commit/b7bf1275cc35340b929f3233df6a1e3cbadd4d27)
-
+- Запушенный репозиторий и изменненный origin, и последующие залитие его на локальный GitLab
+![2-5](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/gitlab/img/GitLab/clone/5.png)
 ---
-
-### Задание 3 (Создание ветки dev, эмитация работы с последующим слиением в оновную ветку.)
-
-
-`Этапы выполнение задания представленны в виде скриншотав`
-
-![1-2](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_3/1-2.png)
-![1-2-1](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_3/1-2-1.png)
-![5](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_3/5.png)
-![3](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_3/3.png)
-![4](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_3/4.png)
-![5-1](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_3/5-1.png)
-![6-8](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_3/6-8.png)
+- На этом этапе у меня возникли проблемы. На решение которых у меня ушло целых 3 вечера. 
+![2-6](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/gitlab/img/GitLab/clone/6.png)
+![2-7](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/gitlab/img/GitLab/clone/7.png)
+`Вывод который я сделал: Нужно еще больше изучить Git`
 ---
-### График комитов 
-![6](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/main/img/images_3/Finish.png)
+![2-8](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/gitlab/img/GitLab/clone/8.png)
+![2-11](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/gitlab/img/GitLab/clone/11.png)
 ---
----
-### Решение задания № 3
-[Ссылка на граф комитов' ](https://github.com/MaximMantr/Netology_Manturov_student/network)
+- Работа gitlab-runner при выполнение .gitlab-ci.yml и описанных в этом файле этапов.
+`config файл .gitlab-ci.yml Пример`
+```
+# Этот файл описывает этапы сборки и тестирования проекта
 
+stages:
+  - build
+  - test
+  - deploy
+
+build:
+  stage: build
+  script:
+    - echo "Сборка проекта..."
+#   - ./build_script.sh  Пример Этап сборки включает в себя выполнение скрипта build_script.sh, который выполняет сборку проекта
+  
+test:
+  stage: test
+  script:
+    - echo "Тестирование проекта..."
+#    - ./test_script.sh Пример Этап тестирования включает в себя выполнение скрипта test_script.sh, который выполняет тестирование проекта.
+
+deploy:
+  stage: deploy
+  script:
+    - echo "Развертывание проекта..."
+#    - ./deploy_script.sh Пример Этап развёртывания включает в себя выполнение скрипта deploy_script.sh, который выполняет развёртывание проекта. 
+  only: Пример Этап развёртывания выполняется только при переходе в ветку master.
+    - master
+```
+`Мой config`
+![2-9](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/gitlab/img/GitLab/test/9.png)
 ---
+- Этап создания .gitlab-ci.yml и его пройденые тесты 
+![2-10](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/gitlab/img/GitLab/test/10.png)
+![2-12](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/gitlab/img/GitLab/test/12.png)
+![2-13](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/gitlab/img/GitLab/test/13.png)
+![2-14](https://github.com/MaximMantr/Manturov_Maxim-8-03-hw/blob/gitlab/img/GitLab/test/14.png)
+---
+> Спасибо за внимание
+
+
+
 
 
 
